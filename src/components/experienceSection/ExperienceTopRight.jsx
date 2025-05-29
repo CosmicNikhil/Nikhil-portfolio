@@ -4,14 +4,11 @@ const ExperienceTopRight = () => {
       <p className="text-lg text-center text-lightGrey">
         I specialize in{" "}
         <span className="font-bold text-white">
-          React and modern JavaScript
+          Java and Spring Boot microservices
         </span>
-        , leveraging best practices to create scalable and maintainable
-        solutions. <br />
-        My experience spans working on diverse projects, from small business
-        websites to{" "}
-        <span className="font-bold text-white">complex front-end systems</span>,
-        always aiming for clean code and exceptional user experiences.
+        , leveraging best practices to build scalable, secure, and maintainable backend systems. <br />
+        My experience spans developing RESTful APIs, distributed architectures, and{" "}
+        <span className="font-bold text-white">event-driven services with Kafka and Docker</span>, always aiming for clean architecture and high performance.
       </p>
     </div>
   );

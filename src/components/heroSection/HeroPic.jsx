@@ -11,11 +11,12 @@ const HeroPic = () => {
       viewport={{ once: false, amount: 0 }}
       className=" h-full flex items-center justify-center "
     >
-      <img
-        src="/images/HexaPic.png"
-        alt="Mohammad Waris"
-        className="max-h-[450px] w-auto"
-      />
+  <img
+  src="/images/Nikhil.png"
+  alt="Hanumansetti Nikhil"
+  className="max-h-[450px] w-auto bg-transparent"
+/>
+
 
       <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
         <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />

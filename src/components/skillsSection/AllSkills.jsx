@@ -10,40 +10,34 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+import { FaJava } from "react-icons/fa6"; 
+
+import React from "react";
+import {
+  SiDocker,
+  SiKubernetes,
+  SiMysql,
+  SiPostgresql,
+  SiSpring,
+  SiApache
+} from "react-icons/si";
+
+
 const skills = [
-  {
-    skill: "HTML",
-    icon: FaHtml5,
-  },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-  },
-  {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
-  },
-  {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
-    skill: "ReactJS",
-    icon: FaReact,
-  },
-  {
-    skill: "Redux",
-    icon: SiRedux,
-  },
-  {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
-  },
+  { skill: "HTML", icon: FaHtml5 }, 
+  { skill: "CSS", icon: FaCss3Alt },
+  { skill: "JavaScript", icon: IoLogoJavascript },
+  { skill: "Java", icon: FaJava },
+  { skill: "Spring", icon: SiSpring },
+  { skill: "MySQL", icon: SiMysql },
+  { skill: "PostgreSQL", icon: SiPostgresql },
+  { skill: "Docker", icon: SiDocker },
+  { skill: "Kubernetes", icon: SiKubernetes },
+  { skill: "Apache", icon: SiApache }, // use this temporarily for Kafka
+
 ];
+
+
 
 const AllSkills = () => {
   return (

@@ -5,29 +5,28 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Library Management System",
+    name: "DreamShops",
+    year: "July2024",
+    align: "right",
+    image: "/images/DreamShops.png",
+    link: "https://github.com/CosmicNikhil/DreamShops",
+  },
+  {
+    name: "Ride Management App",
     year: "Mar2024",
-    align: "right",
-    image: "/images/website-img-1.jpg",
-
-    link: "https://github.com/W-aris/Library-Manage",
-  },
-  {
-    name: "MediConnect ",
-    year: "Sept2024",
     align: "left",
-    image: "/images/website-img-2.jpg",
-    link: "https://github.com/W-aris/MediConnect",
+    image: "/images/Ride.png",
+    link: "https://github.com/CosmicNikhil/UberApp",
   },
   {
-    name: "Wikipidea-search",
-    year: "Nov2024",
+    name: "Social Network System",
+    year: "May2025",
     align: "right",
-    image: "/images/website-img-3.jpg",
-    link: "https://github.com/W-aris/Wikipidea-search",
+    image: "/images/Microservices.png",
+    link: "https://github.com/CosmicNikhil/LinkedInApp",
   },
   {
-    name: "Leetcode-tracker ",
+    name: "Leetcode-tracker",
     year: "Feb2025",
     align: "left",
     image: "/images/website-img-4.jpg",
@@ -41,6 +40,7 @@ const projects = [
     link: "https://quickconnect-by-waris.onrender.com/",
   },
 ];
+
 
 const ProjectsMain = () => {
   return (

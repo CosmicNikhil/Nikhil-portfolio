@@ -4,38 +4,40 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
-  {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    {
+    job: "Backend Developer (Academic + Freelance)",
+    company: "Independent Projects",
+    date: "2023 – Present",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Developed scalable Java microservices using Spring Boot and Kafka.",
+      "Designed distributed systems with service registry (Eureka) and centralized config.",
+      "Deployed applications using Docker and (GKE).",
     ],
   },
-  {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    {
+    job: "Java Programming Intern",
+    company: "Codsoft",
+    date: "June 2024 – July 2024",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Developed RESTful APIs using Spring Boot, Spring Data JPA, and Hibernate.",
+      "Integrated Spring Security for role-based authentication.",
+      "Worked on the DreamShops e-commerce backend with product and order modules.",
     ],
   },
-  {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
-    responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
-    ],
-  },
+{
+  job: "ASDE Intern",
+  company: "Publicis Sapient",
+  date: "May 2025 – July 2025",
+  responsibilities: [
+    "Built Java microservices using Spring Boot, Kafka, and Docker.",
+    "Developed FastAPI services for Pfizer GenAI with AWS Bedrock.",
+    "Implemented Redis + PostgreSQL NLP pipelines."
+  ],
+}
+
+
 ];
+
 
 const AllExperiences = () => {
   return (
